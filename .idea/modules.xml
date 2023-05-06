@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinGenericsExample.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinGenericsExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinGenericsExample.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinGenericsExample.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/KotlinGenericsExample.sample.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/KotlinGenericsExample.sample.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/KotlinGenericsExample.sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/KotlinGenericsExample.sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/KotlinGenericsExample.sample.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/KotlinGenericsExample.sample.unitTest.iml" />
+    </modules>
+  </component>
+</project>
