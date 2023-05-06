@@ -6,4 +6,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "KotlinGenericsExample"
-include ':app'
+include ':sample'

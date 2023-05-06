@@ -3,7 +3,7 @@ package com.lj.generics
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-class GenericFunctionTest {
+class GenericItemsTest {
 
     //region ReadIntegerOnly
 
