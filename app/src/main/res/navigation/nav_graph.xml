@@ -7,7 +7,6 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.lj.coroutines.FirstFragment"
-        android:label="@string/first_fragment_label"
+        android:name="com.lj.generics.FirstFragment"
         tools:layout="@layout/fragment_first"/>
 </navigation>

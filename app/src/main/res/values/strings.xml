@@ -1,18 +1,4 @@
 <resources>
-    <string name="app_name">Coroutines</string>
+    <string name="app_name">Kotlin generics</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Coroutine tests</string>
-
-    <!-- Fire & Forget -->
-    <string name="fireAndForgetTitle">Fire And Forget</string>
-    <string name="fireAndForget">Fire And Forget</string>
-    <string name="fireAndForgetTimeout">Fire And Forget + Timeout</string>
-    <string name="fireAndForgetTimeoutWithCallbackWhenTimeout">Fire And Forget + Timeout + Callback when timeout</string>
-
-    <!-- Fire & Wait -->
-    <string name="fireAndWaitTitle">Fire And Wait</string>
-    <string name="fireAndWait">Fire And Wait</string>
-    <string name="fireAndWaitResult">Fire And Wait + return result</string>
-    <string name="fireAndWaitWithFireAndForgetCallback">Fire And Wait + Fire and forget Callback after wait</string>
 </resources>
