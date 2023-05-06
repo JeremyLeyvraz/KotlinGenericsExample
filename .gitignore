@@ -1,8 +1,10 @@
 # Compiled class file
 *.class
 
-# Log file
+# Temp file
 *.log
+*.bak
+*.swp
 
 # BlueJ files
 *.ctxt
@@ -18,7 +20,18 @@
 *.zip
 *.tar.gz
 *.rar
+*.apk
+*.aar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IDE files
+/build/
+/captures/
+
+# System files
+.gradle/
+.idea/
+/local.properties
