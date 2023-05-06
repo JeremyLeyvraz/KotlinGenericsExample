@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndForgetTitle"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_fire_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndForget" />
+
+    <Button
+        android:id="@+id/button_fire_forget_timeout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndForgetTimeout" />
+
+    <Button
+        android:id="@+id/button_fire_forget_timeout_callback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndForgetTimeoutWithCallbackWhenTimeout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndWaitTitle"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndWait" />
+
+    <Button
+        android:id="@+id/button_wait_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndWaitResult" />
+
+    <Button
+        android:id="@+id/button_wait_result_with_fire_and_forget_callback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fireAndWaitWithFireAndForgetCallback" />
+
+</LinearLayout>
