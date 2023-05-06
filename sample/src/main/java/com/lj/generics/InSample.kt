@@ -6,7 +6,7 @@ package com.lj.generics
 interface In<in T> {
 
     /**
-     * Read an item and return a string.
+     * Reads an item and returns a string.
      *
      * @param item An item of type [T]
      *
@@ -20,12 +20,12 @@ interface In<in T> {
 }
 
 /**
- * [Int] can be read only.
+ * [Int] is read-only.
  */
 class InInteger: In<Int> {
 
     /**
-     * Read an [Int] and display its value in [String].
+     * Reads an [Int] and displays it in [String].
      *
      * @param item [Int] read
      *
@@ -35,16 +35,16 @@ class InInteger: In<Int> {
 }
 
 /**
- * [String] can be read only.
+ * [String] is read-only.
  */
 class InString: In<String> {
 
     /**
-     * Read a [String] and display its number of characters.
+     * Reads a [String] and displays its number of characters.
      *
-     * @param item [String] read
+     * @param item A [String]
      *
-     * @return A [String] "Read [item]"
+     * @return The [item] length
      */
     override fun read(item: String) = "${item.length}"
 }

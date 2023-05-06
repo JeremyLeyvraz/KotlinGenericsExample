@@ -1,27 +1,27 @@
 package com.lj.generics
 
 /**
- * [String] can be read only and [Int] can be write only.
+ * [String] is read-only and [Int] is write-only.
  */
 class InOutSample: In<String>, Out<Int> {
 
     /**
-     * [String] read.
+     * The last [String] read.
      */
-    private var readMessage : String = ""
+    private var lastItemRead : String = ""
 
     /**
-     * Read [item] and return [item]
+     * Reads [item] and returns [item].
      */
     override fun read(item: String): String {
-        readMessage = item
+        lastItemRead = item
         return item
     }
 
     /**
-     * Return the length of the last item read.
+     * Returns the length of the last item read.
      *
      * @return The length of the last item read.
      */
-    override fun write(): Int = readMessage.length
+    override fun write(): Int = lastItemRead.length
 }

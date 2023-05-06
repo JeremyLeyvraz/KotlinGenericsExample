@@ -9,7 +9,7 @@ import org.junit.Test
 class InOutSampleTest {
 
     @Test
-    fun `ReadStringWriteInt should read a string and write its length`() {
+    fun `InOutSample should read a string and write its length`() {
         /** Arrange **/
         val sut = InOutSample()
         val readString = "String read."

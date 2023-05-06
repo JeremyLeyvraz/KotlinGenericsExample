@@ -18,7 +18,7 @@ interface Out<out T> {
 }
 
 /**
- * [Int] can be write only.
+ * [Int] is write-only.
  */
 class OutInteger: Out<Int> {
 
@@ -31,14 +31,14 @@ class OutInteger: Out<Int> {
 }
 
 /**
- * [String] can be write only.
+ * [String] is write-only.
  */
 class OutString: Out<String> {
 
     /**
      * Write a [String].
      *
-     * @return The "Write only string" string.
+     * @return "Out string" string message.
      */
     override fun write(): String = "Out string"
 }

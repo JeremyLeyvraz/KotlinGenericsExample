@@ -5,9 +5,9 @@ package com.lj.generics
  */
 interface WhereNumber<in T> where T: Number {
     /**
-     * Calculate the length of [item] of type [T].
+     * Calculates the length of [item] of type [T].
      *
-     * @param item Calculate the length of this item of type [T].
+     * @param item Calculates the length of this item of type [T].
      *
      * @return The length of this item of type [T].
      */
@@ -20,7 +20,7 @@ interface WhereNumber<in T> where T: Number {
 class WhereNumberIsInt : WhereNumber<Int> {
 
     /**
-     * Return the length of the [String] version of the [Int] parameter.
+     * Returns the length of the [String] version of the [Int] parameter.
      *
      * @param item The [Int] to calculate the [String] length.
      *
@@ -35,7 +35,7 @@ class WhereNumberIsInt : WhereNumber<Int> {
 class WhereNumberIsDouble : WhereNumber<Double> {
 
     /**
-     * Return the length of the [String] version of the [Double] parameter.
+     * Returns the length of the [String] version of the [Double] parameter.
      *
      * @param item The [Double] to calculate the [String] length.
      *
